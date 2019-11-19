@@ -14,6 +14,12 @@
 		AC84E0FC2383B5BD00C2E428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC84E0FB2383B5BD00C2E428 /* Assets.xcassets */; };
 		AC84E0FF2383B5BD00C2E428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC84E0FD2383B5BD00C2E428 /* LaunchScreen.storyboard */; };
 		AC84E1082383B63400C2E428 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC84E1072383B63400C2E428 /* AVFoundation.framework */; };
+		AC84E10F2383B6B100C2E428 /* tiger.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC84E1092383B6B000C2E428 /* tiger.mp3 */; };
+		AC84E1102383B6B100C2E428 /* hippopotamus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC84E10A2383B6B000C2E428 /* hippopotamus.mp3 */; };
+		AC84E1112383B6B100C2E428 /* ape.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC84E10B2383B6B100C2E428 /* ape.mp3 */; };
+		AC84E1122383B6B100C2E428 /* lion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC84E10C2383B6B100C2E428 /* lion.mp3 */; };
+		AC84E1132383B6B100C2E428 /* zebra.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC84E10D2383B6B100C2E428 /* zebra.mp3 */; };
+		AC84E1142383B6B100C2E428 /* elephant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC84E10E2383B6B100C2E428 /* elephant.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		AC84E0FE2383B5BD00C2E428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC84E1002383B5BD00C2E428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC84E1072383B63400C2E428 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AC84E1092383B6B000C2E428 /* tiger.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tiger.mp3; sourceTree = "<group>"; };
+		AC84E10A2383B6B000C2E428 /* hippopotamus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hippopotamus.mp3; sourceTree = "<group>"; };
+		AC84E10B2383B6B100C2E428 /* ape.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ape.mp3; sourceTree = "<group>"; };
+		AC84E10C2383B6B100C2E428 /* lion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lion.mp3; sourceTree = "<group>"; };
+		AC84E10D2383B6B100C2E428 /* zebra.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zebra.mp3; sourceTree = "<group>"; };
+		AC84E10E2383B6B100C2E428 /* elephant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elephant.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +79,12 @@
 				AC84E0FB2383B5BD00C2E428 /* Assets.xcassets */,
 				AC84E0FD2383B5BD00C2E428 /* LaunchScreen.storyboard */,
 				AC84E1002383B5BD00C2E428 /* Info.plist */,
+				AC84E10B2383B6B100C2E428 /* ape.mp3 */,
+				AC84E10E2383B6B100C2E428 /* elephant.mp3 */,
+				AC84E10A2383B6B000C2E428 /* hippopotamus.mp3 */,
+				AC84E10C2383B6B100C2E428 /* lion.mp3 */,
+				AC84E1092383B6B000C2E428 /* tiger.mp3 */,
+				AC84E10D2383B6B100C2E428 /* zebra.mp3 */,
 			);
 			path = "Wild Life Sounds";
 			sourceTree = "<group>";
@@ -139,6 +157,12 @@
 			files = (
 				AC84E0FF2383B5BD00C2E428 /* LaunchScreen.storyboard in Resources */,
 				AC84E0FC2383B5BD00C2E428 /* Assets.xcassets in Resources */,
+				AC84E10F2383B6B100C2E428 /* tiger.mp3 in Resources */,
+				AC84E1132383B6B100C2E428 /* zebra.mp3 in Resources */,
+				AC84E1112383B6B100C2E428 /* ape.mp3 in Resources */,
+				AC84E1122383B6B100C2E428 /* lion.mp3 in Resources */,
+				AC84E1142383B6B100C2E428 /* elephant.mp3 in Resources */,
+				AC84E1102383B6B100C2E428 /* hippopotamus.mp3 in Resources */,
 				AC84E0FA2383B5BC00C2E428 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
