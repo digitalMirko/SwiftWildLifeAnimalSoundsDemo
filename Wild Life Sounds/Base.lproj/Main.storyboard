@@ -18,12 +18,79 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AfricanJungle" translatesAutoresizingMaskIntoConstraints="NO" id="1qZ-zf-w04">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="m6f-X7-L4D">
+                                <rect key="frame" x="20" y="10" width="335" height="587"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Nqp-bf-m5S">
+                                        <rect key="frame" x="0.0" y="0.0" width="157.5" height="587"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GoS-3R-rRd">
+                                                <rect key="frame" x="0.0" y="0.0" width="157.5" height="182.5"/>
+                                                <state key="normal" title="Button" image="Ape">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dWB-VE-Pd1">
+                                                <rect key="frame" x="0.0" y="202.5" width="157.5" height="182"/>
+                                                <state key="normal" title="Button" image="Hippo">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3tT-uO-EDP">
+                                                <rect key="frame" x="0.0" y="404.5" width="157.5" height="182.5"/>
+                                                <state key="normal" title="Button" image="Tiger">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Wtq-KA-7Pt">
+                                        <rect key="frame" x="177.5" y="0.0" width="157.5" height="587"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NZr-cl-QkD">
+                                                <rect key="frame" x="0.0" y="0.0" width="157.5" height="182.5"/>
+                                                <state key="normal" title="Button" image="Elephant">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FjC-Yu-dSV">
+                                                <rect key="frame" x="0.0" y="202.5" width="157.5" height="182"/>
+                                                <state key="normal" title="Button" image="Lion">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zRY-AR-UEr">
+                                                <rect key="frame" x="0.0" y="404.5" width="157.5" height="182.5"/>
+                                                <state key="normal" title="Button" image="Zebra">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="HG5-kY-Mn6">
+                                <rect key="frame" x="18" y="617" width="339" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="oGg-aN-lAw"/>
+                                </constraints>
+                                <color key="minimumTrackTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="maximumTrackTintColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="thumbTintColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="1qZ-zf-w04" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0xb-lU-XfE"/>
                             <constraint firstItem="1qZ-zf-w04" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="6ky-hH-hAG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HG5-kY-Mn6" secondAttribute="bottom" constant="21" id="6r9-Vn-KA7"/>
+                            <constraint firstItem="m6f-X7-L4D" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="FGm-wS-jhu"/>
+                            <constraint firstItem="HG5-kY-Mn6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="LxE-H0-me2"/>
                             <constraint firstAttribute="bottom" secondItem="1qZ-zf-w04" secondAttribute="bottom" id="Ouh-Th-OK4"/>
+                            <constraint firstItem="m6f-X7-L4D" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="dyH-tE-3Eh"/>
+                            <constraint firstItem="HG5-kY-Mn6" firstAttribute="top" secondItem="m6f-X7-L4D" secondAttribute="bottom" constant="20" id="hAl-6E-6Qh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="m6f-X7-L4D" secondAttribute="trailing" constant="20" id="iA6-Me-28A"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HG5-kY-Mn6" secondAttribute="trailing" constant="20" id="vdw-lD-F3l"/>
                             <constraint firstItem="1qZ-zf-w04" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="yUT-YY-i3V"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -36,5 +103,11 @@
     </scenes>
     <resources>
         <image name="AfricanJungle" width="1300" height="867"/>
+        <image name="Ape" width="299" height="261"/>
+        <image name="Elephant" width="555" height="530"/>
+        <image name="Hippo" width="203" height="250"/>
+        <image name="Lion" width="600" height="512"/>
+        <image name="Tiger" width="7178" height="6336"/>
+        <image name="Zebra" width="600" height="520"/>
     </resources>
 </document>
