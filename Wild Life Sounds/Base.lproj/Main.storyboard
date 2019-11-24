@@ -29,18 +29,27 @@
                                                 <state key="normal" title="Button" image="Ape">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="apeButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dih-oT-a1h"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dWB-VE-Pd1">
                                                 <rect key="frame" x="0.0" y="202.5" width="157.5" height="182"/>
                                                 <state key="normal" title="Button" image="Hippo">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="hippoButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8gK-xm-Fll"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3tT-uO-EDP">
                                                 <rect key="frame" x="0.0" y="404.5" width="157.5" height="182.5"/>
                                                 <state key="normal" title="Button" image="Tiger">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="tigerButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xaL-3d-jdv"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -52,18 +61,27 @@
                                                 <state key="normal" title="Button" image="Elephant">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="elephantButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sff-HT-gBg"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FjC-Yu-dSV">
                                                 <rect key="frame" x="0.0" y="202.5" width="157.5" height="182"/>
                                                 <state key="normal" title="Button" image="Lion">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="lionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZoP-6L-DVI"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zRY-AR-UEr">
                                                 <rect key="frame" x="0.0" y="404.5" width="157.5" height="182.5"/>
                                                 <state key="normal" title="Button" image="Zebra">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="zebraButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="upt-aR-PDm"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -77,6 +95,9 @@
                                 <color key="minimumTrackTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="maximumTrackTintColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="thumbTintColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="volumeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="26L-qy-nKT"/>
+                                </connections>
                             </slider>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -95,6 +116,15 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="apeButtonOutlet" destination="GoS-3R-rRd" id="pEy-iE-vxg"/>
+                        <outlet property="elephantButtonOutlet" destination="NZr-cl-QkD" id="F1Q-cw-wi0"/>
+                        <outlet property="hippoButtonOutlet" destination="dWB-VE-Pd1" id="uMY-yd-7oM"/>
+                        <outlet property="lionButtonOutlet" destination="FjC-Yu-dSV" id="5B8-hT-wKr"/>
+                        <outlet property="tigerButtonOutlet" destination="3tT-uO-EDP" id="VQe-9r-2yC"/>
+                        <outlet property="volumeSliderOutlet" destination="HG5-kY-Mn6" id="OFW-9w-2HB"/>
+                        <outlet property="zebraButtonOutlet" destination="zRY-AR-UEr" id="aBX-ey-E9B"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
