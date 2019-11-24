@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // content mode of the images on the buttons
+        // ContentMode of the images on the buttons - using scaleAspectFit 
         apeButtonOutlet.imageView?.contentMode = UIView.ContentMode.scaleAspectFit
         elephantButtonOutlet.imageView?.contentMode = UIView.ContentMode.scaleAspectFit
         hippoButtonOutlet.imageView?.contentMode = UIView.ContentMode.scaleAspectFit
