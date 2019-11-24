@@ -24,6 +24,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // content mode of the images on the buttons
+        apeButtonOutlet.imageView?.contentMode = UIView.ContentMode.scaleAspectFit
+        elephantButtonOutlet.imageView?.contentMode = UIView.ContentMode.scaleAspectFit
+        hippoButtonOutlet.imageView?.contentMode = UIView.ContentMode.scaleAspectFit
+        lionButtonOutlet.imageView?.contentMode = UIView.ContentMode.scaleAspectFit
+        tigerButtonOutlet.imageView?.contentMode = UIView.ContentMode.scaleAspectFit
+        zebraButtonOutlet.imageView?.contentMode = UIView.ContentMode.scaleAspectFit
+        
+        
     }
     
     @IBAction func apeButtonClicked(_ sender: Any) {
